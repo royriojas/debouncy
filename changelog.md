@@ -1,0 +1,16 @@
+
+# debouncy - Changelog
+## v1.0.2
+- **Documentation**
+  - Proper Readme for this module - [07d88fa]( https://github.com/royriojas/debouncy/commit/07d88fa ), [royriojas](https://github.com/royriojas), 01/07/2015 03:32:09
+
+    
+## v1.0.1
+- **Features**
+  - debouncy first working version - [cf9bc13]( https://github.com/royriojas/debouncy/commit/cf9bc13 ), [royriojas](https://github.com/royriojas), 01/07/2015 03:17:18
+
+    
+- **Other changes**
+  - Initial commit - [ef13069]( https://github.com/royriojas/debouncy/commit/ef13069 ), [Roy Riojas](https://github.com/Roy Riojas), 01/07/2015 02:54:27
+
+    
