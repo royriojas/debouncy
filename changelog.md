@@ -1,5 +1,10 @@
 
 # debouncy - Changelog
+## v1.0.3
+- **Documentation**
+  - Fix typo in Readme - [43161b9]( https://github.com/royriojas/debouncy/commit/43161b9 ), [royriojas](https://github.com/royriojas), 01/07/2015 03:48:56
+
+    
 ## v1.0.2
 - **Documentation**
   - Proper Readme for this module - [07d88fa]( https://github.com/royriojas/debouncy/commit/07d88fa ), [royriojas](https://github.com/royriojas), 01/07/2015 03:32:09
