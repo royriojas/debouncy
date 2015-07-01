@@ -16,7 +16,9 @@ var debouncy = require('debouncy');
 ```
 
 ### signature
-`debouncy(fnToDebounce: Function, threshold:Number, [ctx:Object], [immediate:Boolean]):Function`
+```javascript
+function debouncy(fnToDebounce: Function, threshold:Number, [ctx:Object], [immediate:Boolean]):Function
+```
 
 - **fnToDebounce**: Function
   The function to debounce
