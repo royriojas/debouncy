@@ -16,19 +16,19 @@ npm i --save debouncy
 var debouncy = require('debouncy');
 
 var debouncedFn = debouncy(function () { console.log('I am called') }, 200);
-debounceFn();
+debouncedFn();
 // after 200ms
 // output: I am called
 var ctx = {
   name: 'some obj';
 }
 var debouncedFn = debouncy(function () { console.log('I am called from', this.name) }, 200, ctx);
-debounceFn();
+debouncedFn();
 // after 200ms
 // output: I am called from some obj
 
 var debouncedFn = debouncy(function () { console.log('I am called') }, 200, null, true /*immediate*/);
-debounceFn();
+debouncedFn();
 // immediately
 // output: I am called
 // other calls will have to wait 200ms before the last execution
