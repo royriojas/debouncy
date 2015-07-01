@@ -1,5 +1,10 @@
 
 # debouncy - Changelog
+## v1.0.6
+- **Documentation**
+  - Improved documentation - [d6ec42b]( https://github.com/royriojas/debouncy/commit/d6ec42b ), [royriojas](https://github.com/royriojas), 01/07/2015 04:14:32
+
+    
 ## v1.0.4
 - **Documentation**
   - Improved documentation - [2668a09]( https://github.com/royriojas/debouncy/commit/2668a09 ), [royriojas](https://github.com/royriojas), 01/07/2015 04:11:40
