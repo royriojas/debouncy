@@ -20,11 +20,13 @@ var now = function () {
  * ```
  */
 module.exports = function debounce( f, ms, ctx, immediate ) {
-  var ts, fn, timeout;
+  var ts, fn;
+  var timeout = null;
+  var args;
 
   fn = function () {
     ctx = ctx || this;
-    var args = arguments;
+    args = arguments;
     ts = now();
 
     var later = function () {
@@ -41,7 +43,7 @@ module.exports = function debounce( f, ms, ctx, immediate ) {
       }
     };
 
-    if ( !timeout ) {
+    if ( timeout === null ) {
       if ( immediate ) {
         f.apply( ctx, args );
       }

@@ -18,22 +18,23 @@ describe( 'debouncy', function () {
 
     var delayedFn = debouncy( spyFn, 100 );
 
-    delayedFn();
+    delayedFn( 1 );
     expect( spyFn.callCount ).to.equal( 0 );
 
     me.clock.tick( 50 );
 
     expect( spyFn.callCount ).to.equal( 0 );
 
-    delayedFn();
+    delayedFn( 2 );
     me.clock.tick( 50 );
 
     expect( spyFn.callCount ).to.equal( 0 );
 
-    delayedFn();
+    delayedFn( 3 );
     me.clock.tick( 100 );
 
     expect( spyFn.callCount ).to.equal( 1 );
+    expect( spyFn ).to.have.been.calledWith( 3 );
 
   } );
 
