@@ -1,6 +1,6 @@
 {
   "name": "debouncy",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "yet another debounce implementation with 0 dependencies",
   "main": "index.js",
   "scripts": {
