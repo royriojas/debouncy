@@ -53,6 +53,7 @@ module.exports = function debounce( f, ms, ctx, immediate ) {
 
   fn.cancel = function () {
     clearTimeout( timeout );
+    timeout = null; // properly clear the timeout so the next call to fn works as expected
   };
 
   return fn;
