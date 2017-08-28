@@ -1,5 +1,10 @@
 
 # debouncy - Changelog
+## HEAD
+- **Bug Fixes**
+  - Properly cancel the previous execution of a debounced call - [9528e04]( https://github.com/royriojas/debouncy/commit/9528e04 ), [Roy Riojas](https://github.com/Roy Riojas), 28/08/2017 04:05:28
+
+    
 ## v1.0.7
 - **Bug Fixes**
   - debouncy correctly invoke the function with the right params - [0420192]( https://github.com/royriojas/debouncy/commit/0420192 ), [royriojas](https://github.com/royriojas), 10/12/2015 18:30:33
